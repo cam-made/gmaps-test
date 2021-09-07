@@ -59,7 +59,7 @@ export default function App() {
   return (
     <div className={styles.container}>
       <button onClick={addCollectionPoint}>Add marker</button>
-      <Wrapper apiKey="AIzaSyB4MysbpzfWa-mZZMJBcnOE0RN54-rTNqk">
+      <Wrapper apiKey={process.env.gmapsApiKey}>
         <MyMapComponent
           latLngs={collectionPoints}
           center={collectionPoints[0]}
