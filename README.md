@@ -10,7 +10,7 @@ yarn dev
 
 ## Proposed Solution
 
-I've build an poc for the map that zooms in and out and makes sure that all markers are kept within the bounds of the map. The repo for this can be found [here](https://github.com/cam-made/gmaps-test).
+I've built a poc for the map that zooms in and out and makes sure that all markers are kept within the bounds of the map. The repo for this can be found [here](https://github.com/cam-made/gmaps-test).
 
 In order to make the map work you just need to create an .env file and add the variable `GMAPS_API_KEY=AIzaSyB4_KKApwktWz75BeyWX3IACkxNlveW8U4`
 
